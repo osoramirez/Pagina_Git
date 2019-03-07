@@ -11,7 +11,7 @@
 
 
 
-<title>adjuntos.utf8.md</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -302,9 +302,7 @@ $(document).ready(function () {
 
 <p><br />
 <br />
-</p>
-<div id="mostrar-adjuntos" class="section level1">
-<h1>Mostrar adjuntos</h1>
+# Mostrar adjuntos</p>
 <p>Hay varias opciones para adjuntar diferentes formas de brindar una referencia</p>
 <p><br />
 <br />
@@ -317,10 +315,7 @@ $(document).ready(function () {
 <p><br />
 <br />
 <br />
-</p>
-</div>
-<div id="adjuntar-imagenes" class="section level1">
-<h1>Adjuntar imágenes</h1>
+# Adjuntar imágenes</p>
 <p>Para tener un buen orden de los archivos, recomiendo, crear un folder que se llame “imagenes” y ahi guarde sus archivos de imágenes que quiera utilizar. Usted puede adjuntar el .jpg o .png.</p>
 <p><span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span> <span class="math inline">\(~\)</span></p>
 <div id="forma-simple" class="section level3">
@@ -328,7 +323,10 @@ $(document).ready(function () {
 <pre class="markdown"><code>
 # ![](imagenes/colibri.jpg)
 </code></pre>
-<p><img src="imagenes/colibri.jpg" /></p>
+<div class="figure">
+<img src="imagenes/colibri.jpg" />
+
+</div>
 <p><br />
 <br />
 <br />
@@ -341,25 +339,27 @@ $(document).ready(function () {
 
 ![](imagenes/colibri.jpg){width=150px}
 </code></pre>
-<p><img src="imagenes/colibri.jpg" width="150" /></p>
+<div class="figure">
+<img src="imagenes/colibri.jpg" width="150" />
+
+</div>
 <p><br />
 <br />
 <br />
 <br />
-</p>
-</div>
-<div id="largo-y-ancho-definido" class="section level3">
-<h3>Largo y ancho definido</h3>
+### Largo y ancho definido</p>
 <pre class="markdown"><code>&lt;div style=&quot;width:300px; height:200px&quot;&gt;
 ![](imagenes/colibri.jpg)
 &lt;/div&gt;</code></pre>
 <div style="width:100px; height:100px">
-<p><img src="imagenes/colibri.jpg" /></p>
+<div class="figure">
+<img src="imagenes/colibri.jpg" />
+
+</div>
 </div>
 <pre class="r"><code>a &lt;- rnorm(100)
 hist(a)</code></pre>
 <p><img src="adjuntos_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-</div>
 </div>
 
 
